@@ -98,17 +98,7 @@ section.blog {
     width: 100%;
   }
 /*final part end*/
-.cr7{
-    text-align: center;
-    background-image: url(images/images.jpg);
-    background-size: cover;
-    margin: 50px auto;
-    justify-content: center;
-    background-repeat: no-repeat;
-    padding: 200px 0px;
-    width: 80%;
-    color:white;
-}
+
 /* main part end */
 
 /*footer part start*/
