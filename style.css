@@ -50,7 +50,11 @@ header{
 }
 .right-banner img{
     width: 100%;
+    transition: transform 2s ease;
 }
+.right-banner:hover img {
+    transform: rotate(-360deg);
+  }
 /* right banner end*/
 
 /* top banner end */
@@ -86,9 +90,39 @@ section.blog {
 }
 /* blog part end */
 
+/*final start*/
+.final {
+    margin-top: 50px;
+  }
+  .final img {
+    width: 100%;
+  }
+  /*final end*/
 
+  /* main part end */
 
-
+/*footer start*/
+.foot {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .log img {
+    width: 50%;
+  }
+  .social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .social-icon i{
+    font-size: 30px;
+    margin-left: 10px;
+  }
+  .copyright{
+      margin-top: 25px;
+  }
+  
+  /*footer end*/
 /* Responsive part */
 @media (max-width:650px) {
 
